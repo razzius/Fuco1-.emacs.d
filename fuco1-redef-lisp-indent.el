@@ -1,11 +1,6 @@
-;;; fuco1-redef-lisp-indent.el --- Global redefinitions of Emacs's own code  -*- lexical-binding: t; -*-
+;;; fuco1-redef-lisp-indent.el --- fix keyword indentation -*- lexical-binding: t; -*-
 
 ;;; Commentary:
-
-;; This file contains redefinitions of the lisp indent function
-;; which has trouble with indentation.
-
-;;; Code:
 
 ;; redefines the silly indent of keyword lists
 ;; before
@@ -14,6 +9,9 @@
 ;; after
 ;;   (:foo bar
 ;;    :baz qux)
+
+;;; Code:
+
 (eval-after-load "lisp-mode"
   '(defun lisp-indent-function (indent-point state)
      "This function is the normal value of the variable `lisp-indent-function'.
