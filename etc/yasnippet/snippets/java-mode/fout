@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name: fout
-# key: fout
-# --
-System.out.format("$0");
