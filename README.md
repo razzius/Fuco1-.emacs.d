@@ -7,5 +7,5 @@ the lisp reindent function, so it can be installed as an emacs package.
 
 ```elisp
 (use-package fuco1-redef-lisp-indent
-  :straight (:repo "https://github.com/razzius/Fuco1-.emacs.d")
+  :straight (:repo "https://git.sr.ht/~razzi/fuco1-redef-lisp-indent.el")
 ```
